@@ -43,35 +43,36 @@ export default () => {
     ]
     
     return (
-        <section className="mt-12 mx-auto px-4 py-4 max-w-screen-xl md:px-8 bg-black">
+        <section className="mt-12 mx-auto px-4 py-4 max-w-screen-xl md:px-8 bg-[#F5F5F5]">
             <div className="text-center">
-                <h1 className="text-3xl text-white font-semibold">
+                <h1 className="text-3xl text-[#080D0B] font-semibold">
                     Explore Our Web3 Courses
                 </h1>
-                <p className="mt-3 text-[#d8d8d8]">
+                <p className="mt-3 text-[#080D0B]">
                     Welcome to our catalog of Web3 courses and workshops! Here, you'll find a carefully curated selection of learning opportunities for all levels, from beginners to advanced practitioners. Our courses cover everything from the fundamentals of Web3 to advanced smart contract development and blockchain security.
                 </p>
             </div>
             <div className="mt-12 grid gap-2 sm:grid-cols-3 lg:grid-cols-4">
                 {
                     posts.map((items, key) => (
-                        <article className="max-w-md mx-auto mt-4 shadow-lg border border-gray-700 rounded-md duration-300 transform hover:shadow-2xl hover:scale-105 bg-[#1f1f25] transition-transform" key={key}>
+                        <article className="max-w-md mx-auto mt-4 shadow-lg border border-[#CB8DE2] rounded-md duration-300 transform hover:shadow-2xl hover:scale-105 bg-[#F6F9F8] transition-transform" key={key}>
                             <a href={items.href}>
                                 <img src={items.img} loading="lazy" alt={items.title} className="rounded-t-md" />
-                                <div className="flex items-center mt-2 pt-3 ml-4 mr-2">
+                                <div className="flex items-center mt-2 pt-3 ml-4 mr-2 mb-2">
                                     <div className="flex-none w-10 h-10 rounded-full">
                                         <img src={items.authorLogo} className="w-full h-full rounded-full" alt={items.authorName} />
                                     </div>
                                     <div className="ml-3">
-                                        <span className="block text-white">{items.authorName}</span>
-                                        <span className="block text-[#d8d8d8] text-sm">{items.date}</span>
+                                        <span className="block text-[#080D0B] font-bold">{items.authorName}</span>
+                                        <span className="block text-[#B67FB8] text-sm">{items.date}</span>
                                     </div>
                                 </div>
+                                <hr />
                                 <div className="pt-3 ml-4 mr-2 mb-3">
-                                    <h3 className="text-xl text-white">
+                                    <h3 className="text-xl text-[#080D0B]">
                                         {items.title}
                                     </h3>
-                                    <p className="text-[#d8d8d8] text-sm mt-1">{items.desc}</p>
+                                    <p className="text-[#080D0B] text-sm mt-1">{items.desc}</p>
                                 </div>
                             </a>
                         </article>
