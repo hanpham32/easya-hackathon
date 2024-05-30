@@ -15,7 +15,7 @@ export default function GetStarted() {
     if (wallet.connected && status === "authenticated") {
       router.push('/dashboard');
     }
-  }, [wallet.connected, status]);
+  }, [wallet.connected, status, router]);
 
   return (
     <div className="flex justify-center items-center h-screen w-screen">
