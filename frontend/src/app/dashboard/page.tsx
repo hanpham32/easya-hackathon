@@ -14,7 +14,7 @@ export default function Dashboard() {
       console.log("redirecting back to /")
       router.push('/')
     }
-  }, [wallet.connected, status])
+  }, [wallet.connected, status, router])
 
   return (
     <section>

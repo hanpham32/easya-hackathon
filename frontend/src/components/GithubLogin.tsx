@@ -4,7 +4,7 @@ import { GithubLoginButton } from "react-social-login-buttons"
 
 export default function GithubLogin() {
   const { data: session } = useSession()
-  if (session) {
+  if (session && session.user) {
     return (
       <div>
         Signed in as {session.user.email} <br />

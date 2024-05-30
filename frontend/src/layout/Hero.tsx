@@ -9,7 +9,7 @@ export default function Hero() {
           Workshops Hub
         </div>
         <div className="italic relative flex">
-          On Workshops Hub, you don't just learn -- you build, deploy real projects, and mastering your craft with every
+          On Workshops Hub, you don&apos;t just learn -- you build, deploy real projects, and mastering your craft with every
           <span className="relative ml-1">
             <span className="relative z-10 font-mono text-[#CB8DE2]"> push</span>
             <Image
