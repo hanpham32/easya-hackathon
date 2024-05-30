@@ -1,5 +1,6 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import Link from "next/link";
+import GithubLogin from "./GithubLogin";
 
 export default function Nav() {
   return (

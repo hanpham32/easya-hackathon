@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import '@rainbow-me/rainbowkit/styles.css';
+import '@suiet/wallet-kit/style.css';
 import { Providers } from "@/providers/rainbowkit";
+import NextAuthProvider from "@/providers/next-auth";
+import SuietWalletProvider from "@/providers/suiet";
 
 import Nav from "@/components/Nav";
 
@@ -19,8 +22,12 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Providers>
-          <Nav />
-          {children}
+          <NextAuthProvider>
+            <SuietWalletProvider>
+              <Nav />
+              {children}
+            </SuietWalletProvider>
+          </NextAuthProvider>
         </Providers>
       </body>
     </html>
