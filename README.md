@@ -51,6 +51,12 @@ Web3 Workshops is a central hub for workshops content for developers who look to
 If given more time, we can improve the UI, deploy backend server for services like storage, NFT collection, set up git repository for workshops.
 
 ## Roadmap:
+We want our platform to be providing contents for diverse blockchain ecosystems (e.g. Sui, Polkadot L0 and parachains, etc.), and be the leading education platform tailored for developer learning experience.
+
 - Finish the implementation for rewarding system, repository server, and app API endpoints.
 - Collaborate with blockchain protocols to onboard workshop contents.
 - The ability to write and create contents for workshop and earn rewards for teaching.
+
+
+### Footnote:
+Our inspiration comes from [CodeCrafter](https://codecrafters.io/)
