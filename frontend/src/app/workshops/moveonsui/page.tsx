@@ -5,8 +5,6 @@ import { Separator } from "@/components/ui/separator";
 import { moveonsui_fundamental_steps } from "@/workshops/moveonsui_fundamental_concepts/moveonsui_fundamental_steps";
 
 export default function MoveOnSui() {
-  const [selectedStep, setSelectedStep] = React.useState("1");
-
   return (
     <ScrollArea className="h-screen w-48 rounded-md border">
       <div className="p-4">
