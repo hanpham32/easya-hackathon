@@ -1,11 +1,15 @@
 import Hero from "@/layout/Hero";
-import Catalog from "@/components/Catalog";
+import Team from "@/layout/Team";
+import FAQ from "@/layout/FAQ";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <main className="">
       <Hero />
-      <Catalog />
+      <Team />
+      <FAQ />
+      <Footer />
     </main>
   );
 }
