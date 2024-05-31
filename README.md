@@ -45,10 +45,10 @@ Web3 Workshops is a central hub for workshops content for developers who look to
 
 
 ## Challenges We Face
-- Time constraint for implementation: deploy NFT colletion, set up git server and webhooks to receive Push request.
+- We only had roughly two days for implementation, and last day to wrap up our presentaion and website. We faced time constraint for implementation: deploy NFT colletion, set up git server and webhooks to receive Push request.
 
 
-If given more time, we can improve the UI of the workshops and dashboard.
+If given more time, we can improve the UI, deploy backend server for services like storage, NFT collection, set up git repository for workshops.
 
 ## Roadmap:
 - Finish the implementation for rewarding system, repository server, and app API endpoints.
