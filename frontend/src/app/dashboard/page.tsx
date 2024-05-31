@@ -18,7 +18,6 @@ export default function Dashboard() {
 
   return (
     <section>
-      Hello from dashboard
     </section>
   )
 }
