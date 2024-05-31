@@ -2,19 +2,19 @@ import Image from "next/image"
 export default function Team() {
   const team = [
     {
-      avatar: "https://images.unsplash.com/photo-1579017331263-ef82f0bbc748?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80",
-      name: "Han So Pham",
-      title: "Product designer",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry. Lorem Ipsum has been the industry&apos;s standard dummy",
-      linkedin: "#",
-      twitter: "#",
-      github: "#"
+      avatar: "/han.jpeg",
+      name: "Han Pham (She/Her)",
+      title: "Developer",
+      desc: "Computer Science student at the University of Washington - Bothell. Her personal and professional goal is to create and contribute to projects that create meaningful impact to the community",
+      linkedin: "https://www.linkedin.com/in/hansopham/",
+      twitter: "https://twitter.com/hanspham_",
+      github: "https://github.com/hanpham32"
     },
     {
-      avatar: "./victor.jpeg",
-      name: "Victor Amaya",
+      avatar: "/victor.jpeg",
+      name: "Victor Amaya (He/Him)",
       title: "Senior Software engineer",
-      desc: "I&apos;m Victor Amaya, a seasoned Senior Software Engineer with a passion for crafting technology solutions and managing projects in diverse environments.",
+      desc: "Im Victor Amaya, a seasoned Senior Software Engineer with a passion for crafting technology solutions and managing projects in diverse environments.",
       linkedin: "https://www.linkedin.com/in/javier-amaya-b8b716168/",
       twitter: "https://twitter.com/Jav1erAmaya",
       github: "https://github.com/JavierAmaya"
@@ -40,8 +40,10 @@ export default function Team() {
                   <div className="w-full h-60">
                     <Image
                       src={item.avatar}
-                      className="w-full h-full object-cover object-center shadow-md rounded-xl"
+                      className="object-cover object-center shadow-md rounded-xl"
                       alt=""
+                      width={128}
+                      height={128}
                     />
                   </div>
                   <div className="mt-4 sm:mt-0">

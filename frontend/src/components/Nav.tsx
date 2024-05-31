@@ -12,7 +12,7 @@ export default function Nav() {
   return (
     <div className="flex justify-between items-center p-4 bg-gray-100 shadow-md">
       <div className="flex items-center">
-        <Image src="./frog.png" alt="Logo" className="mr-2 w-16 h-16" />
+        <Image src="/frog.png" alt="Logo" className="mr-2" width={64} height={64} />
         <span className="text-xl font-bold">Web3 Workshop</span>
       </div>
       <div className="flex items-center">
