@@ -1,5 +1,6 @@
 # easya-hackathon
 
+Link to presentation slides [here](https://www.canva.com/design/DAGGyDY6wiQ/YqJMgR_3GSMkEZmiBkJBVg/edit?utm_content=DAGGyDY6wiQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 ## Short Summary
 
 Collaborate and advance programming workshops and challenges and earn rewards. Web3 Workshops is a central hub for workshops content for developers who look to onboard to blockchain protocols. The platform provides interactive learning, step-by-step guidance, community feedback, a ladderboard + NFT rewards for workshop completion.
